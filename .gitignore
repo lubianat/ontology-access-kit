@@ -2,7 +2,6 @@
 .tox/
 __pycache__/
 .ipynb_checkpoints/
-tests/output/
 dist/
 db/
 
@@ -10,6 +9,10 @@ db/
 .template.db
 .vscode
 .venv
+
+.coverage.*
+.coverage
+coverage.*
 
 docs/_build/
 docs/src/
@@ -22,6 +25,5 @@ notebooks/*/output/*json
 notebooks/*/output/*tsv
 notebooks/api-key.txt
 
-.coverage.*
-.coverage
-coverage.*
+tests/output/
+tests/input/*_conf.json
